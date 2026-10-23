@@ -1,5 +1,16 @@
 # Changelog
 
+## 2.0.0
+
+### Major Changes
+
+- 64845cb: Move into the strapi-field-kit monorepo.
+
+  - Admin labels, empty state and validation messages are translated (English and Vietnamese); 1.x shipped translation keys that never matched.
+  - Option parsing and validation moved into tested helpers.
+  - Drops the unused plugin initializer and empty server boilerplate.
+  - Breaking: requires Node 20+.
+
 All notable changes to this project will be documented in this file.
 
 ## [1.1.5] - 2026-10-19
