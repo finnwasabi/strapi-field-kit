@@ -1,0 +1,13 @@
+{
+  "multiselect-checkbox.label": "Chọn nhiều (checkbox)",
+  "multiselect-checkbox.description": "Chọn nhiều lựa chọn bằng checkbox. Dữ liệu lưu dạng mảng JSON.",
+  "multiselect-checkbox.options.available-options.label": "Các lựa chọn (mỗi dòng một lựa chọn)",
+  "multiselect-checkbox.options.available-options.description": "Mỗi dòng một lựa chọn. Dùng label:value để lưu giá trị khác với nhãn.",
+  "multiselect-checkbox.options.available-options.placeholder": "Lựa chọn 1\nLựa chọn 2\nLựa chọn 3",
+  "multiselect-checkbox.options.default.label": "Giá trị mặc định",
+  "multiselect-checkbox.options.default.description": "Giá trị mặc định dạng JSON, ví dụ: [\"Lựa chọn 1\", \"Lựa chọn 2\"]",
+  "multiselect-checkbox.empty-state": "Chưa có lựa chọn nào. Hãy cấu hình lựa chọn trong cài đặt của trường.",
+  "multiselect-checkbox.error.no-options": "Chưa có lựa chọn nào nhưng trường này là bắt buộc",
+  "multiselect-checkbox.error.min": "Chọn ít nhất {min} lựa chọn",
+  "multiselect-checkbox.error.max": "Chọn nhiều nhất {max} lựa chọn"
+}

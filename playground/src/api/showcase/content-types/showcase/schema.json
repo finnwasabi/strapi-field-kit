@@ -29,6 +29,52 @@
     },
     "phone": {
       "type": "string"
+    },
+    "display_name": {
+      "type": "customField",
+      "customField": "plugin::composite-field.composite",
+      "options": {
+        "fields": "title\ncategory",
+        "separator": " - ",
+        "autoGenerate": true
+      }
+    },
+    "tags": {
+      "type": "customField",
+      "customField": "plugin::multiselect-checkbox.multiselect-checkbox",
+      "options": [
+        "News",
+        "Guide",
+        "Release:release-notes"
+      ]
+    },
+    "slots": {
+      "type": "customField",
+      "customField": "plugin::time-slot-picker.time-slot-picker",
+      "options": {
+        "allowDateEditing": true,
+        "morningSlots": "8:00-9:00\n9:00-10:00",
+        "afternoonSlots": "13:00-14:00\n14:00-15:00"
+      }
+    },
+    "accepted_people": {
+      "type": "customField",
+      "customField": "plugin::filtered-relation.filtered-relation",
+      "options": {
+        "targetModel": "Participation",
+        "filterField1": "participantStatus",
+        "filterValue1": "Accepted",
+        "filterField2": "showcase.documentId",
+        "filterValue2": "{{documentId}}",
+        "displayField": "people",
+        "statusField": "participantStatus"
+      }
+    },
+    "participations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::participation.participation",
+      "mappedBy": "showcase"
     }
   }
 }

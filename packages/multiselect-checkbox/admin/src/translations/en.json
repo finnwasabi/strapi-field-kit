@@ -1,0 +1,13 @@
+{
+  "multiselect-checkbox.label": "Multiselect Checkbox",
+  "multiselect-checkbox.description": "Select multiple options using checkboxes. Data stored as JSON array.",
+  "multiselect-checkbox.options.available-options.label": "Options (one per line)",
+  "multiselect-checkbox.options.available-options.description": "Enter one option per line. Use label:value to store a different value.",
+  "multiselect-checkbox.options.available-options.placeholder": "Option 1\nOption 2\nOption 3",
+  "multiselect-checkbox.options.default.label": "Default value",
+  "multiselect-checkbox.options.default.description": "Set the default value in JSON format, ex: [\"Option 1\", \"Option 2\"]",
+  "multiselect-checkbox.empty-state": "No options available. Please configure options in the field settings.",
+  "multiselect-checkbox.error.no-options": "No options, but field is required",
+  "multiselect-checkbox.error.min": "Select at least {min} options",
+  "multiselect-checkbox.error.max": "Select at most {max} options"
+}

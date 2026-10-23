@@ -1,0 +1,23 @@
+{
+  "time-slot-picker.label": "Time Slot Picker",
+  "time-slot-picker.description": "Select time slots for specific dates",
+  "time-slot-picker.options.base.settings": "Settings",
+  "time-slot-picker.options.requiredField": "Required field",
+  "time-slot-picker.options.requiredField.description": "You won't be able to create an entry if this field is empty",
+  "time-slot-picker.options.allowDateEditing": "Editors can add and remove dates",
+  "time-slot-picker.options.allowDateEditing.description": "Show a date picker in the edit view. Leave off when dates come from your API.",
+  "time-slot-picker.options.advanced.slots": "Time Slots Configuration",
+  "time-slot-picker.options.morningSlots": "Morning Slots (one per line)",
+  "time-slot-picker.options.morningSlots.description": "Enter morning time slots, one per line. Example:\n8:00-9:00\n9:00-10:00\n10:00-11:00\n11:00-12:00\n12:00-13:00",
+  "time-slot-picker.options.afternoonSlots": "Afternoon Slots (one per line)",
+  "time-slot-picker.options.afternoonSlots.description": "Enter afternoon time slots, one per line. Example:\n13:00-14:00\n14:00-15:00\n15:00-16:00\n16:00-17:00\n17:00-18:00",
+  "time-slot-picker.date.add": "Add date",
+  "time-slot-picker.date.add.placeholder": "Select a date to add",
+  "time-slot-picker.date.clear": "Clear",
+  "time-slot-picker.date.remove": "Remove date",
+  "time-slot-picker.date.selectAll": "Select all slots",
+  "time-slot-picker.empty": "No dates yet. Dates are added to this field through the API.",
+  "time-slot-picker.empty.editable": "No dates selected. Please add a date to select time slots.",
+  "time-slot-picker.morning": "MORNING",
+  "time-slot-picker.afternoon": "AFTERNOON"
+}

@@ -1,0 +1,23 @@
+{
+  "time-slot-picker.label": "Chọn khung giờ",
+  "time-slot-picker.description": "Chọn khung giờ cho từng ngày",
+  "time-slot-picker.options.base.settings": "Cài đặt",
+  "time-slot-picker.options.requiredField": "Bắt buộc",
+  "time-slot-picker.options.requiredField.description": "Không thể tạo entry nếu để trống trường này",
+  "time-slot-picker.options.allowDateEditing": "Cho phép biên tập viên thêm và xóa ngày",
+  "time-slot-picker.options.allowDateEditing.description": "Hiện ô chọn ngày trong form. Tắt nếu ngày được đưa vào qua API.",
+  "time-slot-picker.options.advanced.slots": "Cấu hình khung giờ",
+  "time-slot-picker.options.morningSlots": "Khung giờ buổi sáng (mỗi dòng một khung)",
+  "time-slot-picker.options.morningSlots.description": "Nhập các khung giờ buổi sáng, mỗi dòng một khung. Ví dụ:\n8:00-9:00\n9:00-10:00\n10:00-11:00\n11:00-12:00\n12:00-13:00",
+  "time-slot-picker.options.afternoonSlots": "Khung giờ buổi chiều (mỗi dòng một khung)",
+  "time-slot-picker.options.afternoonSlots.description": "Nhập các khung giờ buổi chiều, mỗi dòng một khung. Ví dụ:\n13:00-14:00\n14:00-15:00\n15:00-16:00\n16:00-17:00\n17:00-18:00",
+  "time-slot-picker.date.add": "Thêm ngày",
+  "time-slot-picker.date.add.placeholder": "Chọn ngày để thêm",
+  "time-slot-picker.date.clear": "Xóa",
+  "time-slot-picker.date.remove": "Xóa ngày",
+  "time-slot-picker.date.selectAll": "Chọn tất cả khung giờ",
+  "time-slot-picker.empty": "Chưa có ngày nào. Ngày được đưa vào trường này qua API.",
+  "time-slot-picker.empty.editable": "Chưa chọn ngày nào. Hãy thêm ngày để chọn khung giờ.",
+  "time-slot-picker.morning": "BUỔI SÁNG",
+  "time-slot-picker.afternoon": "BUỔI CHIỀU"
+}
