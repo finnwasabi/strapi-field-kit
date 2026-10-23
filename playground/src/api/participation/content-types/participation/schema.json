@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "participations",
+  "info": {
+    "singularName": "participation",
+    "pluralName": "participations",
+    "displayName": "Participation"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "participantStatus": {
+      "type": "enumeration",
+      "enum": [
+        "Invited",
+        "Accepted",
+        "Rejected"
+      ],
+      "default": "Invited"
+    },
+    "showcase": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::showcase.showcase",
+      "inversedBy": "participations"
+    },
+    "people": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::person.person"
+    }
+  }
+}

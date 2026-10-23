@@ -1,0 +1,91 @@
+{
+  "name": "@tunghtml/strapi-plugin-multiselect-checkbox",
+  "version": "1.1.5",
+  "description": "A Strapi v5 custom field plugin with checkbox UI that stores selected values as an array of strings (JSON type) instead of comma-separated strings.",
+  "keywords": [
+    "strapi",
+    "strapi-plugin",
+    "custom-field",
+    "multiselect",
+    "checkbox",
+    "array",
+    "json"
+  ],
+  "homepage": "https://github.com/finnwasabi/strapi-field-kit/tree/main/packages/multiselect-checkbox#readme",
+  "bugs": {
+    "url": "https://github.com/finnwasabi/strapi-field-kit/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finnwasabi/strapi-field-kit.git",
+    "directory": "packages/multiselect-checkbox"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Tung Le",
+    "email": "nhattung1511@gmail.com",
+    "url": "https://tungln.is-a.dev"
+  },
+  "type": "commonjs",
+  "exports": {
+    "./package.json": "./package.json",
+    "./strapi-admin": {
+      "types": "./dist/admin/src/index.d.ts",
+      "source": "./admin/src/index.ts",
+      "import": "./dist/admin/index.mjs",
+      "require": "./dist/admin/index.js",
+      "default": "./dist/admin/index.js"
+    },
+    "./strapi-server": {
+      "types": "./dist/server/src/index.d.ts",
+      "source": "./server/src/index.ts",
+      "import": "./dist/server/index.mjs",
+      "require": "./dist/server/index.js",
+      "default": "./dist/server/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "strapi-plugin build",
+    "watch": "strapi-plugin watch",
+    "watch:link": "strapi-plugin watch:link",
+    "verify": "strapi-plugin verify",
+    "typecheck": "tsc -p admin/tsconfig.json --noEmit && tsc -p server/tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@strapi/design-system": "^2.2.4",
+    "@strapi/icons": "^2.2.4"
+  },
+  "devDependencies": {
+    "@strapi/sdk-plugin": "^6.1.1",
+    "@strapi/strapi": "^5.59.0",
+    "@strapi/typescript-utils": "^5.59.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-intl": "^6.6.2",
+    "react-router-dom": "^6.30.3",
+    "styled-components": "^6.1.19",
+    "typescript": "5.9.3"
+  },
+  "peerDependencies": {
+    "@strapi/strapi": "^5.18.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-intl": "^6.0.0",
+    "react-router-dom": "^6.0.0",
+    "styled-components": "^6.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "strapi": {
+    "kind": "plugin",
+    "name": "multiselect-checkbox",
+    "displayName": "Multiselect Checkbox",
+    "description": "A custom field for Strapi that allows users to select multiple options from a predefined list and stores as array."
+  }
+}

@@ -7,16 +7,14 @@ Custom fields that the Strapi 5 Content-Type Builder is missing. Each one starte
 
 ## Fields
 
-| Field | What it does | Package | Status |
-|---|---|---|---|
-| [Section Divider](./packages/section-divider) | Full-width labelled divider that splits long forms into sections | `@tunghtml/strapi-plugin-section-divider` | In the kit |
-| [Dynamic Enum](./packages/dynamic-enum) | Enum dropdown where editors can add a new option as they type | `@tunghtml/strapi-plugin-dynamic-enum` | In the kit |
-| Composite Field | Builds a display value from other fields, such as `firstName - lastName`, and keeps it in sync | `@tunghtml/strapi-plugin-composite-field` | Moving in |
-| Time Slot Picker | Pick time slots across several dates, grouped by morning and afternoon | `@tunghtml/strapi-plugin-time-slot-picker` | Moving in |
-| Filtered Relation | Lists related entries filtered by the current entry, with inline status changes | `@tunghtml/strapi-plugin-filtered-relation` | Moving in |
-| Multiselect Checkbox | Checkbox list stored as a JSON array instead of a comma-separated string | `@tunghtml/strapi-plugin-multiselect-checkbox` | Moving in |
-
-Until a field moves in, its code and issues live in its original `finnwasabi/strapi-plugin-*` repository.
+| Field | What it does | Package |
+|---|---|---|
+| [Section Divider](./packages/section-divider) | Full-width labelled divider that splits long forms into sections | `@tunghtml/strapi-plugin-section-divider` |
+| [Dynamic Enum](./packages/dynamic-enum) | Enum dropdown where editors can add a new option as they type | `@tunghtml/strapi-plugin-dynamic-enum` |
+| [Composite Field](./packages/composite-field) | Builds a display value from other fields, such as `firstName - lastName`, and keeps it in sync | `@tunghtml/strapi-plugin-composite-field` |
+| [Time Slot Picker](./packages/time-slot-picker) | Pick time slots across several dates, grouped by morning and afternoon; editors can optionally add dates | `@tunghtml/strapi-plugin-time-slot-picker` |
+| [Filtered Relation](./packages/filtered-relation) | Lists related entries filtered by the current entry, with inline status changes | `@tunghtml/strapi-plugin-filtered-relation` |
+| [Multiselect Checkbox](./packages/multiselect-checkbox) | Checkbox list stored as a JSON array instead of a comma-separated string | `@tunghtml/strapi-plugin-multiselect-checkbox` |
 
 ## Install
 
