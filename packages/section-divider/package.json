@@ -1,6 +1,6 @@
 {
   "name": "@tunghtml/strapi-plugin-section-divider",
-  "version": "1.0.18",
+  "version": "2.0.0",
   "description": "A Strapi custom field plugin to add visual section dividers in content-type forms",
   "keywords": [
     "strapi",
