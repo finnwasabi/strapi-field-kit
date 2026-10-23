@@ -10,7 +10,7 @@ Custom fields that the Strapi 5 Content-Type Builder is missing. Each one starte
 | Field | What it does | Package | Status |
 |---|---|---|---|
 | [Section Divider](./packages/section-divider) | Full-width labelled divider that splits long forms into sections | `@tunghtml/strapi-plugin-section-divider` | In the kit |
-| Dynamic Enum | Enum dropdown where editors can add a new option as they type | `@tunghtml/strapi-plugin-dynamic-enum` | Moving in |
+| [Dynamic Enum](./packages/dynamic-enum) | Enum dropdown where editors can add a new option as they type | `@tunghtml/strapi-plugin-dynamic-enum` | In the kit |
 | Composite Field | Builds a display value from other fields, such as `firstName - lastName`, and keeps it in sync | `@tunghtml/strapi-plugin-composite-field` | Moving in |
 | Time Slot Picker | Pick time slots across several dates, grouped by morning and afternoon | `@tunghtml/strapi-plugin-time-slot-picker` | Moving in |
 | Filtered Relation | Lists related entries filtered by the current entry, with inline status changes | `@tunghtml/strapi-plugin-filtered-relation` | Moving in |
