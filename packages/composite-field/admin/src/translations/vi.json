@@ -1,0 +1,19 @@
+{
+  "composite-field.label": "Trường ghép",
+  "composite-field.description": "Ghép nhiều trường thành một giá trị hiển thị",
+  "composite-field.section.title": "Cài đặt",
+  "composite-field.fields.label": "Các trường cần ghép",
+  "composite-field.fields.description": "Nhập tên trường, mỗi dòng một tên. Chỉ hỗ trợ trường text/string.",
+  "composite-field.fields.placeholder": "salutation\nfirstName\nlastName\nemail",
+  "composite-field.separator.label": "Ký tự phân cách",
+  "composite-field.separator.description": "Ký tự đặt giữa các trường (mặc định: \" - \")",
+  "composite-field.separator.placeholder": " - ",
+  "composite-field.advanced.title": "Cài đặt",
+  "composite-field.autoGenerate.label": "Tự động tạo",
+  "composite-field.autoGenerate.description": "Tự cập nhật giá trị khi các trường nguồn thay đổi",
+  "composite-field.placeholder.auto": "Tự tạo từ các trường",
+  "composite-field.placeholder.manual": "Bấm nút để tạo",
+  "composite-field.generate": "Tạo giá trị ghép",
+  "composite-field.combines": "Ghép: {fields}",
+  "composite-field.combines.auto": "Ghép: {fields} (tự động)"
+}

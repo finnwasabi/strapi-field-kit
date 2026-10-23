@@ -1,0 +1,19 @@
+{
+  "composite-field.label": "Composite",
+  "composite-field.description": "Combine multiple fields into one display value",
+  "composite-field.section.title": "Settings",
+  "composite-field.fields.label": "Fields to combine",
+  "composite-field.fields.description": "Enter field names (one per line). Only text/string fields are supported.",
+  "composite-field.fields.placeholder": "salutation\nfirstName\nlastName\nemail",
+  "composite-field.separator.label": "Separator",
+  "composite-field.separator.description": "Separator between fields (default: \" - \")",
+  "composite-field.separator.placeholder": " - ",
+  "composite-field.advanced.title": "Settings",
+  "composite-field.autoGenerate.label": "Auto-generate",
+  "composite-field.autoGenerate.description": "Automatically generate value when source fields change",
+  "composite-field.placeholder.auto": "Auto-generated from fields",
+  "composite-field.placeholder.manual": "Click button to generate",
+  "composite-field.generate": "Generate composite value",
+  "composite-field.combines": "Combines: {fields}",
+  "composite-field.combines.auto": "Combines: {fields} (auto-generated)"
+}
