@@ -1,0 +1,41 @@
+name: Release
+
+# Moi lan push len main: neu con changeset chua phat hanh thi mo/cap nhat PR
+# "Version packages"; merge PR do thi phat hanh len npm bang OIDC (khong can NPM_TOKEN).
+on:
+  push:
+    branches: [main]
+
+concurrency: ${{ github.workflow }}-${{ github.ref }}
+
+permissions:
+  contents: write
+  pull-requests: write
+  id-token: write # bat buoc, day la thu sinh ra OIDC token cho npm
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+          registry-url: 'https://registry.npmjs.org'
+
+      # OIDC chi co tu npm 11.5.1, ban di kem Node 22 con cu hon the.
+      - run: npm install -g npm@latest
+
+      - run: pnpm install --frozen-lockfile
+
+      - uses: changesets/action@v1
+        with:
+          publish: pnpm release
+          title: 'chore: version packages'
+          commit: 'chore: version packages'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

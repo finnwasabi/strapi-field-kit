@@ -1,0 +1,23 @@
+{
+  "name": "playground",
+  "private": true,
+  "description": "Strapi 5 app for trying the field kit plugins locally",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/strapi": "^5.59.0",
+    "@tunghtml/strapi-plugin-section-divider": "workspace:*",
+    "better-sqlite3": "^12.4.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.3",
+    "styled-components": "^6.1.19"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
