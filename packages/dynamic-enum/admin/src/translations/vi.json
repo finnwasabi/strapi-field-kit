@@ -1,0 +1,12 @@
+{
+  "dynamic-enum.label": "Enum động",
+  "dynamic-enum.description": "Chọn một giá trị, có thể tạo thêm lựa chọn mới ngay khi nhập",
+  "dynamic-enum.options.base.settings": "Cài đặt",
+  "dynamic-enum.options.enum": "Lựa chọn ban đầu",
+  "dynamic-enum.options.enum.description": "Nhập các giá trị ban đầu, mỗi dòng một giá trị",
+  "dynamic-enum.options.enum.placeholder": "Lựa chọn 1\nLựa chọn 2\nLựa chọn 3",
+  "dynamic-enum.options.requiredField": "Bắt buộc",
+  "dynamic-enum.options.requiredField.description": "Không thể tạo entry nếu để trống trường này",
+  "dynamic-enum.placeholder": "Chọn hoặc gõ để tạo mới",
+  "dynamic-enum.notification.created": "Đã tạo và chọn \"{value}\""
+}

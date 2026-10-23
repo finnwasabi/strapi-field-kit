@@ -1,0 +1,12 @@
+{
+  "dynamic-enum.label": "Dynamic Enum",
+  "dynamic-enum.description": "Single select with ability to create new options",
+  "dynamic-enum.options.base.settings": "Settings",
+  "dynamic-enum.options.enum": "Initial Options",
+  "dynamic-enum.options.enum.description": "Enter initial enum values, one per line",
+  "dynamic-enum.options.enum.placeholder": "Option 1\nOption 2\nOption 3",
+  "dynamic-enum.options.requiredField": "Required field",
+  "dynamic-enum.options.requiredField.description": "You won't be able to create an entry if this field is empty",
+  "dynamic-enum.placeholder": "Select or type to create",
+  "dynamic-enum.notification.created": "Created and selected \"{value}\""
+}
