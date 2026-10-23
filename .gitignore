@@ -1,0 +1,14 @@
+node_modules/
+dist/
+coverage/
+.env
+*.log
+
+# playground (Strapi app)
+playground/.tmp/
+playground/.strapi/
+playground/build/
+playground/public/uploads/*
+!playground/public/uploads/.gitkeep
+playground/types/generated/
+playground/.strapi-updater.json

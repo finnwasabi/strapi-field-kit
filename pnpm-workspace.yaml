@@ -1,0 +1,8 @@
+packages:
+  - packages/*
+  - playground
+
+onlyBuiltDependencies:
+  - '@swc/core'
+  - better-sqlite3
+  - esbuild
