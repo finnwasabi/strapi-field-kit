@@ -1,5 +1,17 @@
 # Changelog
 
+## 2.0.0
+
+### Major Changes
+
+- 64845cb: Move into the strapi-field-kit monorepo and rewrite in TypeScript.
+
+  - The package now ships a built `dist` (via `@strapi/sdk-plugin`) instead of raw JSX source.
+  - New "Editors can add and remove dates" option brings back the date picker and remove buttons removed in 1.1.0. It is off by default, so existing fields look the same.
+  - Without that option, the empty state explains that dates come from the API.
+  - Labels are translated (English and Vietnamese); invalid dates show as written instead of "undefined, undefined NaN".
+  - Breaking: requires Node 20+.
+
 All notable changes to this project will be documented in this file.
 
 ## [1.1.4] - 2026-10-19
